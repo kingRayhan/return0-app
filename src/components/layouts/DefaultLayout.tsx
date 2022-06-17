@@ -9,7 +9,7 @@ const DefaultLayout: React.FC<PropType> = ({ children }) => {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <main className="wrapper">{children}</main>
     </>
   );
 };

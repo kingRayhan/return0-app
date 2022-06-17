@@ -12,6 +12,13 @@ module.exports = {
           green: "#4E9A06",
           dark: "#0F172A",
         },
+        gray: "#1F2937",
+        font: {
+          100: "#F1F5F9",
+          200: "#E2E8F0",
+          300: "#CBD5E1",
+          DEFAULT: "#F1F5F9",
+        },
       },
     },
   },

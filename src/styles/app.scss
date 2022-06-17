@@ -2,14 +2,31 @@
 @tailwind utilities;
 @tailwind components;
 
+
+@font-face {
+    font-family: "Cascadia Code";
+    src: url("../fonts/cascadia-code-woff2/CascadiaCode.woff2") format("woff2"),
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cascadia Code', Fallback, sans-serif;
+    @apply text-sm transition duration-150 ease-in-out;
+}
+
 @layer base{
     body{
-        @apply bg-slate-900 text-slate-100;
+        @apply bg-primary-dark;
+    }
+    div{
+        @apply rounded;
     }
 }
 
-@layer utilities{
-    .wrapper{
-        @apply max-w-6xl px-4 mx-auto;
-    }
-}
+// @layer utilities{
+//     .wrapper{
+//         @apply max-w-6xl px-4 mx-auto;
+//     }
+// }
