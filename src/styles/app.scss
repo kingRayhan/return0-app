@@ -6,14 +6,19 @@
 @font-face {
     font-family: "Cascadia Code";
     src: url("../fonts/cascadia-code-woff2/CascadiaCode.woff2") format("woff2"),
-}
+        url("../fonts/cascadia-code-woff2/CascadiaCode-ExtraLight.woff2") format("woff2"),
+        url("../fonts/cascadia-code-woff2/CascadiaCode-SemiLight.woff2") format("woff2"),
+        url("../fonts/cascadia-code-woff2/CascadiaCode-Light.woff2") format("woff2"),
+        url("../fonts/cascadia-code-woff2/CascadiaCode-Bold.woff2") format("woff2"),
+        url("../fonts/cascadia-code-woff2/CascadiaCode-SemiBold.woff2") format("woff2")
+        }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cascadia Code', Fallback, sans-serif;
-    @apply text-sm transition duration-150 ease-in-out;
+    @apply text-sm text-font-200 transition duration-150 ease-in-out;
 }
 
 @layer base{
@@ -22,6 +27,9 @@
     }
     div{
         @apply rounded;
+    }
+    h1,h2,p{
+        margin: 0;
     }
 }
 
