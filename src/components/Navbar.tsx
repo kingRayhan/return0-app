@@ -2,8 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Avatar = () => <h1>avatar</h1>;
-
 const Navbar = () => {
   return (
     <div className="wrapper py-10 flex justify-between items-center">
