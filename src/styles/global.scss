@@ -7,12 +7,12 @@
 // ---------- sizing ---------- //
 h1,
 .heading{
-  @apply text-4xl text-font m-0 leading-none;
+  @apply text-xl xs:text-3xl md:text-4xl text-font m-0 leading-loose tracking-wider;
 }
 
 h2,
 .subheading{
-  @apply text-base text-font-200 m-0 leading-none;
+  @apply text-base text-font-200 m-0 leading-none underline;
 }
 
 // ----------- Buttons ----------- //

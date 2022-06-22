@@ -8,13 +8,13 @@ const Navbar = () => {
       <Link href="/" passHref>
         <Image
           src="/static/brand/return0-logo.png"
-          width="100"
-          height="60"
+          width="80"
+          height="45"
           alt=""
         />
       </Link>
       <div className="rounded-full-img">
-        <Image src="/static/images/profile.jpg" width={50} height={50} alt="" />
+        <Image src="/static/images/profile.jpg" width={40} height={40} alt="" />
       </div>
     </div>
   );

@@ -1,0 +1,37 @@
+
+
+// ------------------- Home Page -------------------- //
+
+
+.index-hero{
+  background: linear-gradient(90deg, rgba(31,41,55,1) 5%, rgba(0,0,0,0) 100%), url('/static/images/home-hero.png') no-repeat right;
+  background-size: 100% 100%;
+  background-repeat: no-repeat !important;
+  
+    @screen sm {
+      background: linear-gradient(90deg, rgba(31,41,55,1) 10%, rgba(0,0,0,0) 100%), url('/static/images/home-hero.png') no-repeat right;
+      background-size: 90% 100%;
+    }
+
+    @screen md {
+      background: linear-gradient(90deg, rgba(31,41,55,1) 30%, rgba(0,0,0,0) 100%), url('/static/images/home-hero.png') no-repeat right;
+      background-size: 80% 100%;
+    }
+
+    @screen lg {
+      background: linear-gradient(90deg, rgba(31,41,55,1) 30%, rgba(0,0,0,0) 100%), url('/static/images/home-hero.png') no-repeat right;
+      background-size: 60% 100%;
+    }
+}
+
+.hh_course_details_short{
+  @apply flex flex-wrap items-center gap-3 md:gap-5;
+  div{
+    @apply flex items-center gap-2;
+
+    span{
+      padding: 0;
+      margin: 0;
+    }
+  }
+}

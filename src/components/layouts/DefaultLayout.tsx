@@ -7,10 +7,10 @@ interface PropType {
 
 const DefaultLayout: React.FC<PropType> = ({ children }) => {
   return (
-    <>
+    <div className="min-w-[380px]">
       <Navbar />
       <main className="wrapper">{children}</main>
-    </>
+    </div>
   );
 };
 
