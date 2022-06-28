@@ -43,7 +43,7 @@ const Home: NextPage = () => {
       </header>
 
       {/* -------------- Course Details section -------------- */}
-      <section className="padding flex py-10">
+      <section className="padding py-10 grid grid-cols-2">
         <div className="">
           <div>
             <h2 className="subheading">About this course</h2>
